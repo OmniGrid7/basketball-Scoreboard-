@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball-Score</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <span class="title">
+    <h1>Scoreboard App</h1>
+    </span>
+    <div class = "container">
+       <div>
+        <h2>Team A</h2>
+        <span id="current_score_A"></span>
+        <br>
+        <button onclick="scoreMinus1_A()">-1</button>
+        <button onclick="scorePlus1_A()">+1</button>
+        <button onclick="scorePlus2_A()">+2</button>
+        <button onclick="scorePlus3_A()">+3</button>
+       </br>
+        </div>
+       <div>
+        <h2>Team B</h2>
+        <span id="current_score_B"></span>
+        <br>
+        <button onclick="scoreMinus1_B()">-1</button>
+        <button onclick="scorePlus1_B()">+1</button>
+        <button onclick="scorePlus2_B()">+2</button>
+        <button onclick="scorePlus3_B()">+3</button>
+       </br>
+       </div>
+    </div>
+    <button class="reset-btn" onclick="reset()">Reset Score</button>
+<script src="index.js"></script>
+</body>
+</html>
